@@ -35016,7 +35016,7 @@ const [data,changeData]=useState(
                            {
                             data.map(
                                 (value,index)=>{
-                                    return  <div className="col col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                                    return  <div className="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
                                     <div class="card">
                                         <img src={value.url} class="card-img-top" alt="..."/>
                                             <div class="card-body">
